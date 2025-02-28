@@ -1,0 +1,26 @@
+.bannerContainer {
+  background-color: var(--color-primary);
+  padding: var(--spacing-XL);
+
+  .bannerContent {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 600px;
+    display: grid;
+    gap: var(--spacing-M);
+    text-align: center;
+    color: var(--color-bg);
+  }
+
+  .bannerTitle {
+    font-size: 2rem;
+    font-family: var(--quicksand);
+    letter-spacing: 1rem;
+  }
+
+  .bannerDescription {
+    font-size: 4rem;
+    font-family: var(--sawya);
+  }
+}

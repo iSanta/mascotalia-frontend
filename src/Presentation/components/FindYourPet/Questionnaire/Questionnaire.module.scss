@@ -1,0 +1,107 @@
+@import "/src/Presentation/design-system/utils/mixings";
+
+.questionnaire {
+  &Content {
+    position: absolute;
+    inset: 0;
+    text-align: center;
+    margin: var(--spacing-XL) auto;
+    width: 600px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-M);
+
+    @include responsiveUp("M") {
+      margin: var(--spacing-XXXL) auto;
+    }
+
+    @include inline-animation(3s, 1) {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  }
+
+  &Questions {
+    margin: var(--spacing-S) 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-S);
+    align-items: center;
+    justify-content: center;
+
+    @include inline-animation(1s, 1) {
+      from {
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .question {
+      font-size: 2rem;
+      color: white;
+      text-align: center;
+      margin-bottom: var(--spacing-S);
+    }
+
+    .input {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-XXS);
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &Image {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    max-width: 30%;
+
+    @include responsiveDown("M") {
+      display: none;
+    }
+
+    &Right {
+      @extend .questionnaireImage;
+      top: 0;
+      right: 0;
+      transform-origin: right top;
+
+      @include inline-animation(1.6s, 1) {
+        from {
+          rotate: -180deg;
+        }
+        to {
+          rotate: 0deg;
+        }
+      }
+    }
+
+    &Left {
+      @extend .questionnaireImage;
+      top: 0;
+      left: 0;
+      transform-origin: left top;
+
+      @include inline-animation(1.6s, 1) {
+        from {
+          rotate: 180deg;
+        }
+        to {
+          rotate: 0deg;
+        }
+      }
+    }
+  }
+}

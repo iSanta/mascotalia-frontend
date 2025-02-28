@@ -1,0 +1,19 @@
+img.image {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: var(--spacing-S);
+  }
+  
+  .blogEntry:nth-child(n + 2) {
+    margin-top: 4em;
+  }
+  
+.Data{
+  margin-bottom: 1em;
+}
+
+.SubTitle{
+  h4{
+    margin-top: 0;
+  }
+}

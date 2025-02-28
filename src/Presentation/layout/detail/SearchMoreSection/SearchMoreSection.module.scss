@@ -1,0 +1,60 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.section {
+    position: relative;
+    max-width: var(--max-width);
+    width: 90%;
+    margin: var(--spacing-XL) auto;
+    display: grid;
+    gap: var(--spacing-S);
+
+    @include responsiveUp("M") {
+        margin: var(--spacing-XXXL) auto;
+    }
+}
+
+.container {
+    position: relative;
+    max-width: var(--max-width);
+    width: 90%;
+    margin: var(--spacing-M) auto;
+}
+
+div.subtitles {
+    text-align: center;
+    @include responsiveUp("M") {
+        align-items: flex-start;
+        text-align: start;
+    }
+}
+
+div.sliderContainer {   
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+    &::-webkit-scrollbar {
+        height: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(220, 220, 220, 0.45);
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &:hover {
+        &::-webkit-scrollbar {
+            display: block;
+        }
+    }
+}
+
+div.cardContainer {
+    width: fit-content;
+    min-width: 950px;
+    height: fit-content;
+    padding: 18px;
+}

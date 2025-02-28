@@ -1,0 +1,16 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .filters {
+    display: none;
+
+    @include responsiveUp("M") {
+      display: block;
+    }
+  }
+
+  .results {
+    display: grid;
+    gap: var(--spacing-S);
+  }
+}

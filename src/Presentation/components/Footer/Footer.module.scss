@@ -1,0 +1,134 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.footerWrapper {
+  background-color: var(--color-primary);
+  padding-top: var(--spacing-XXL);
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-S);
+    margin-bottom: var(--spacing-S);
+    color: white;
+
+    @include responsiveUp("M") {
+      margin-bottom: var(--spacing-L);
+      flex-direction: row;
+    }
+  }
+
+  .socialMedia {
+    display: flex;
+    gap: var(--spacing-S);
+    margin-top: var(--spacing-S);
+
+    @include responsiveUp("M") {
+      margin-top: 0;
+      margin-left: auto;
+    }
+
+    .link {
+      color: white;
+
+      .icon {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .footerContainer {
+    display: grid;
+    grid:
+      "logo logo logo" 1fr
+      "copy copy copy" auto
+      "polices polices polices" auto
+      / 1fr 1fr 1fr;
+    gap: var(--spacing-S);
+    padding: 5% 0;
+    align-items: center;
+
+    @include responsiveUp("L") {
+      grid:
+        "copy logo polices" 1fr
+        "copy logo polices" 1fr
+        "copy logo polices" 1fr
+        / 1fr auto 1fr;
+
+      gap: var(--spacing-M);
+      padding: var(--spacing-S) 0;
+
+      & > *:last-child {
+        justify-self: flex-end;
+      }
+    }
+  }
+
+  .footerCopy {
+    grid-area: copy;
+    text-align: center;
+    color: white;
+
+    @include responsiveUp("L") {
+      text-align: left;
+    }
+  }
+
+  .footerLogo {
+    grid-area: logo;
+    justify-self: center;
+  }
+
+  .footerPolices {
+    grid-area: polices;
+    display: flex;
+    gap: var(--spacing-S);
+    justify-content: space-between;
+    text-align: center;
+
+    & span {
+      color: white;
+    }
+
+    @include responsiveUp("L") {
+      text-align: left;
+      justify-self: flex-end;
+    }
+  }
+
+  .newsLatterSection {
+    margin: 0;
+
+    @include responsiveUp("XXXL") {
+      margin: 0 calc(var(--spacing-XL) * -1);
+    }
+
+    .newsLatterContainer {
+      display: grid;
+      gap: var(--spacing-S);
+      background-color: var(--color-secundary);
+      margin-bottom: var(--spacing-L);
+      padding: var(--spacing-L) var(--spacing-XL);
+      border-radius: var(--spacing-L);
+      text-align: center;
+
+      @include responsiveUp("L") {
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        text-align: left;
+      }
+
+      .newsLatterForm {
+        padding: var(--spacing-XS);
+        background-color: var(--color-bg);
+        border-radius: var(--spacing-M);
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-XS);
+
+        @include responsiveUp("S") {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+}

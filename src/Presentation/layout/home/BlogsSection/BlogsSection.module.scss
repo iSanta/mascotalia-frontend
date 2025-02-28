@@ -1,0 +1,57 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .entries {
+    margin: var(--spacing-XS) auto;
+    display: grid;
+    align-items: center;
+
+    @include responsiveUp("S") {
+      gap: var(--spacing-M);
+      grid-template-columns: auto 1fr auto;
+    }
+
+    @include responsiveUp("L") {
+      margin: var(--spacing-L) auto;
+      gap: var(--spacing-XXL);
+    }
+  }
+
+  .entryButton {
+    display: none;
+
+    @include responsiveUp("S") {
+      display: grid;
+      place-content: center;
+      background-color: var(--color-secundary);
+      color: white;
+      padding: var(--spacing-XS);
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: all 300ms ease;
+
+      &:hover {
+        box-shadow: 0px 0px 24px 0 rgba(255, 175, 71, 0.48);
+      }
+
+      .arrow {
+        font-size: 2rem;
+      }
+    }
+
+    @include responsiveUp("M") {
+      padding: var(--spacing-S);
+
+      .arrow {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .seeMoreButton {
+    @include responsiveUp("S") {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "/api/v1/Pet/:id": "/pet/",
+  "/api/v1/Blog": "/blog/",
+  "/api/v1/Blog/Recent-Entries": "/recent-entries/",
+  "/api/v1/Blog/:id": "/blog-detail/",
+  "/api/v1/Tag": "/tag/",
+  "/api/v1/Campaign": "/campaign/",
+  "/api/v1/Campaign/Recent-Campaigns": "/recent-campaigns/",
+  "/api/v1/Campaign/Random-Campaigns": "/random-campaigns/",
+  "/api/v1/Campaign/:id": "/campaign-detail/",
+  "/api/v1/Sex": "/sex/",
+  "/api/v1/Specie": "/specie/"
+}

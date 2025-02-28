@@ -1,0 +1,17 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .image {
+    border-radius: 32px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+
+    @include responsiveUp("XL") {
+      aspect-ratio: 1/1;
+    }
+  }
+
+  .seeDetails {
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,13 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.blogEntry{
+  img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    height: 100;
+  }
+}
+
+.searchBar {
+  margin-left: 0 !important;
+}

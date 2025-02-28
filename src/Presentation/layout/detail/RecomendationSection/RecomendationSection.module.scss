@@ -1,0 +1,27 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+div.divider {
+    margin: 0px 0px;
+}
+
+div.header {
+    width: 100%;
+
+    @include responsiveUp('M') {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+
+div.recomendationIcon {
+    margin-top: 4px;
+}
+
+div.subtitle {
+    text-align: center;
+
+    @include responsiveUp("M") {
+        align-items: flex-start;
+        text-align: start;
+    }
+}

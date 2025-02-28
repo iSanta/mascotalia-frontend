@@ -1,0 +1,20 @@
+.favButton {
+    position: fixed !important;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1050; // Asegura que esté sobre otros elementos
+    background-color: #5d3a6d !important;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 24px;
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  

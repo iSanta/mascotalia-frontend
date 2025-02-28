@@ -1,0 +1,89 @@
+.root {
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  min-height: 100dvh;
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+
+  &:root {
+    --color-primary: #673f69;
+    --color-secundary: #ffaf45;
+    --color-info: #445bcc;
+    --color-success: #55c989;
+    --color-warning: #ffc24d;
+    --color-error: #d65952;
+    --color-text: #1e1b4b;
+    --color-bg: #fafbfc;
+    --color-neutral: #9190a7;
+    --spacing-XXXS: 4px;
+    --spacing-XXS: 8px;
+    --spacing-XS: 16px;
+    --spacing-S: 24px;
+    --spacing-M: 32px;
+    --spacing-L: 48px;
+    --spacing-XL: 64px;
+    --spacing-XXL: 96px;
+    --spacing-XXXL: 128px;
+    --max-width: 1360px;
+  }
+
+  body {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    min-height: 100dvh;
+    scroll-behavior: smooth;
+    background-color: var(--color-bg);
+    font-family: var(--quicksand);
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--sawya);
+    font-weight: 700;
+  }
+
+  b,
+  strong {
+    font-weight: 700;
+  }
+
+  input {
+    font-weight: 600;
+  }
+
+  .typography {
+    margin: 0;
+
+    p,
+    a,
+    span {
+      margin: 0;
+    }
+  }
+
+  span {
+    &.typography {
+      font-size: 1.4rem;
+    }
+  }
+
+  .checkbox {
+    & > * {
+      span::after {
+        top: calc(50% * 0.9);
+        inset-inline: calc(25% * 1.1);
+        scale: 0.9;
+      }
+    }
+  }
+}

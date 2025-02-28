@@ -1,0 +1,100 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.root {
+  .section {
+    position: relative;
+    max-width: var(--max-width);
+    width: 90%;
+    margin: var(--spacing-XL) auto;
+    display: grid;
+    gap: var(--spacing-S);
+
+    @include responsiveUp("M") {
+      margin: var(--spacing-XXXL) auto;
+    }
+  }
+
+  .container {
+    position: relative;
+    max-width: var(--max-width);
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /*-- Typography --*/
+  .none_decoration {
+    text-decoration: none;
+  }
+
+  .text_primary {
+    color: var(--color-primary);
+  }
+
+  .text_secundary {
+    color: var(--color-secundary);
+  }
+
+  .text_info {
+    color: var(--color-info);
+  }
+
+  .text_success {
+    color: var(--color-success);
+  }
+
+  .text_neutral {
+    color: var(--color-neutral);
+  }
+
+  .text_error {
+    color: var(--color-error);
+  }
+
+  .text_detail {
+    color: var(--color-text);
+  }
+
+  .text_bg {
+    color: var(--color-bg);
+  }
+
+  .text_regular_xs {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .text_regular_sm {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .text_regular_md {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  .text_regular_lg {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .text_bold_xs {
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .text_bold_sm {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .text_bold_md {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+
+  .text_bold_lg {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}

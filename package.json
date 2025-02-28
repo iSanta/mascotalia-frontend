@@ -1,0 +1,45 @@
+{
+  "name": "mascotalia-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "start:mock": "json-server --watch src/Infrastructure/json-server/db.json --routes src/Infrastructure/json-server/route.json --port 3001"
+  },
+  "dependencies": {
+    "@ant-design/nextjs-registry": "^1.0.1",
+    "@microsoft/signalr": "^8.0.7",
+    "@reduxjs/toolkit": "^2.2.7",
+    "antd": "^5.22.6",
+    "axios": "^1.7.5",
+    "framer-motion": "^11.11.9",
+    "i18next": "^24.2.1",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "next": "15.1.2",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-i18next": "^15.4.0",
+    "react-icons": "^5.3.0",
+    "react-leaflet": "^4.2.1",
+    "react-redux": "^9.1.2"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.12",
+    "@types/node": "^20",
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "eslint": "^8",
+    "eslint-config-next": "15.1.2",
+    "json-server": "^0.17.4",
+    "sass": "^1.79.5",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2"
+  }
+}

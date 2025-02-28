@@ -1,0 +1,16 @@
+div.card {
+  border-radius: 32px;
+  overflow: hidden;
+  position: relative;
+}
+
+img.cardImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 4/3;
+}
+
+div.cardDetails {
+  padding: 24px;
+}

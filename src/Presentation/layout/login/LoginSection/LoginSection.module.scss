@@ -1,0 +1,114 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.loginBoxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 96vh;
+    padding: var(--spacing-XXS);
+    gap: var(--spacing-L);
+    position: relative;
+    z-index: 1;
+
+    @include responsiveDown('XS') {
+        gap: var(--spacing-M);
+    }
+}
+
+.logo {
+    @include responsiveDown('XS') {
+        width: 250px;
+        height: 185px;
+    }
+}
+
+div.wrapper {
+    position: fixed;
+
+    @include responsiveDown("XS") {
+        padding-top: var(--spacing-XS);
+        padding-bottom: var(--spacing-XS);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+.blob,
+.blob1,
+.blob2 {
+    position: fixed;
+    animation: fadeIn 2s ease-out forwards;
+
+    @include responsiveDown("M") {
+        visibility: hidden;
+    }
+}
+
+.blob {
+    width: 250px;
+    height: 250px;
+    bottom: 8vh;
+    right: 10vw;
+}
+
+.blob1 {
+    width: 100px;
+    height: 100px;
+    bottom: 8vh;
+    left: 12vw;
+}
+
+.blob2 {
+    width: 150px;
+    height: 150px;
+    top: 10vh;
+    left: 18vw;
+}
+
+@keyframes blobAnimation {
+    0% {
+        d: path("M429,287.5Q380,325,356,358.5Q332,392,291,432Q250,472,199,449.5Q148,427,104,393.5Q60,360,69.5,305Q79,250,67,194Q55,138,99.5,102.5Q144,67,197,67Q250,67,303.5,65.5Q357,64,390,107Q423,150,450.5,200Q478,250,429,287.5Z");
+    }
+
+    25% {
+        d: path("M461,308Q451,366,390,376Q329,386,289.5,412.5Q250,439,204.5,423Q159,407,130.5,371.5Q102,336,55.5,293Q9,250,38,197.5Q67,145,97,91Q127,37,188.5,38.5Q250,40,292.5,71.5Q335,103,379.5,126Q424,149,447.5,199.5Q471,250,461,308Z");
+    }
+
+    50% {
+        d: path("M464.5,307.5Q448,365,409.5,412.5Q371,460,310.5,473Q250,486,198.5,457Q147,428,108.5,391Q70,354,78,302Q86,250,69,193Q52,136,97.5,100Q143,64,196.5,58Q250,52,303.5,58.5Q357,65,399.5,102Q442,139,461.5,194.5Q481,250,464.5,307.5Z");
+    }
+
+    75% {
+        d: path("M423,293.5Q401,337,373,376Q345,415,297.5,425.5Q250,436,209.5,413Q169,390,109,378Q49,366,45.5,308Q42,250,80.5,212.5Q119,175,128.5,115.5Q138,56,194,68.5Q250,81,300.5,78.5Q351,76,403,104Q455,132,450,191Q445,250,423,293.5Z");
+    }
+
+    100% {
+        d: path("M429,287.5Q380,325,356,358.5Q332,392,291,432Q250,472,199,449.5Q148,427,104,393.5Q60,360,69.5,305Q79,250,67,194Q55,138,99.5,102.5Q144,67,197,67Q250,67,303.5,65.5Q357,64,390,107Q423,150,450.5,200Q478,250,429,287.5Z");
+    }
+}
+
+.blob path,
+.blob1 path,
+.blob2 path {
+    animation: blobAnimation 32s infinite linear;
+}
+
+.blob1 path {
+    animation-duration: 12s;
+}
+
+.blob2 path {
+    animation-duration: 24s;
+}

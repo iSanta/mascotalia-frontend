@@ -1,0 +1,143 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .footerContainer {
+    display: grid;
+    grid:
+      "logo logo logo" 1fr
+      "copy copy copy" auto
+      "polices polices polices" auto
+      / 1fr 1fr 1fr;
+    gap: var(--spacing-S);
+    padding: 5% 0;
+    align-items: center;
+
+    @include responsiveUp("L") {
+      grid:
+        "copy logo polices" 1fr
+        "copy logo polices" 1fr
+        "copy logo polices" 1fr
+        / 1fr auto 1fr;
+
+      gap: var(--spacing-M);
+      padding: var(--spacing-S) 0;
+
+      & > *:last-child {
+        justify-self: flex-end;
+      }
+    }
+  }
+
+  .footerTitle {
+    display: block;
+    max-width: 512px;
+    width: 100%;
+    margin-left: auto !important;
+    text-align: right;
+
+    @include responsiveUp("M") {
+      padding-right: var(--spacing-XL);
+    }
+  }
+
+  .footerCopy {
+    grid-area: copy;
+    text-align: center;
+
+    @include responsiveUp("L") {
+      text-align: left;
+    }
+  }
+
+  .footerLogo {
+    grid-area: logo;
+    justify-self: center;
+  }
+
+  .footerPolices {
+    grid-area: polices;
+    display: flex;
+    gap: var(--spacing-S);
+    justify-content: space-between;
+    text-align: center;
+
+    @include responsiveUp("L") {
+      text-align: left;
+      justify-self: flex-end;
+    }
+  }
+
+  .newsLatterSection {
+    max-width: var(--max-width);
+    width: 90%;
+    margin: var(--spacing-XXL) auto;
+
+    @include responsiveUp("L") {
+      margin: 0 auto calc(var(--spacing-XXXL) * 2) auto;
+    }
+
+    .newsLatterContainer {
+      display: grid;
+      gap: var(--spacing-S);
+      background-color: var(--color-secundary);
+      padding: var(--spacing-L) var(--spacing-XL);
+      border-radius: var(--spacing-L);
+      text-align: center;
+
+      @include responsiveUp("L") {
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        text-align: left;
+      }
+
+      .newsLatterForm {
+        padding: var(--spacing-XS);
+        background-color: var(--color-bg);
+        border-radius: var(--spacing-M);
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-XS);
+
+        @include responsiveUp("M") {
+          flex-direction: row;
+        }
+      }
+    }
+  }
+
+  .footerShape1,
+  .footerShape2,
+  .footerShape3 {
+    position: absolute;
+  }
+
+  .footerShape1 {
+    left: 0;
+    bottom: 222px;
+    display: none;
+
+    @include responsiveUp("L") {
+      display: block;
+    }
+  }
+
+  .footerShape2 {
+    top: 0;
+    left: 222px;
+    display: none;
+
+    @include responsiveUp("L") {
+      display: block;
+    }
+  }
+
+  .footerShape3 {
+    right: 0;
+    bottom: 125px;
+    display: none;
+
+    @include responsiveUp("L") {
+      display: block;
+    }
+  }
+}

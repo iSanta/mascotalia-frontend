@@ -1,0 +1,9 @@
+.divButtons{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    button{
+        margin-bottom: 7px;
+        width: 6.8em;
+    }
+}

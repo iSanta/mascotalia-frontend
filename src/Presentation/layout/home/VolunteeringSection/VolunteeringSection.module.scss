@@ -1,0 +1,19 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .cards {
+    margin: 16px 0;
+
+    @include responsiveUp("L") {
+      margin: 32px 0;
+    }
+  }
+
+  .buttonContainer {
+    display: grid;
+
+    @include responsiveUp("M") {
+      display: flex;
+    }
+  }
+}

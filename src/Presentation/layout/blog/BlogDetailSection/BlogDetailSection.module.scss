@@ -1,0 +1,41 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.Image1 {
+  img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: var(--spacing-S);
+  }
+}
+
+.Image2 {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: var(--spacing-S);
+  float: right;
+  margin: 1em;
+  width: 100% !important;
+
+  @include responsiveUp("S") {
+    width: 50% !important;
+  }
+
+}
+
+.Image3 {
+  aspect-ratio: 0.5;
+  object-fit: cover;
+  border-radius: var(--spacing-S);
+  float: left;
+  margin: 1em;
+  width: 100% !important;
+
+  @include responsiveUp("S") {
+    width: 30% !important;
+  }
+
+}
+
+.searchBar {
+  margin-left: 0 !important;
+}

@@ -1,0 +1,71 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .filters {
+    display: none;
+
+    @include responsiveUp("M") {
+      display: block;
+    }
+  }
+
+  .filtersButton {
+    @include responsiveUp("M") {
+      display: none;
+    }
+
+    &.showMoreButton {
+      margin-top: var(--spacing-M);
+    }
+  }
+
+  .pagination {
+    margin-top: var(--spacing-M);
+    display: none;
+
+    @include responsiveUp("M") {
+      display: flex;
+    }
+  }
+
+  .results {
+    display: grid;
+    gap: var(--spacing-S);
+  }
+
+  .textBtn {
+    padding-left: var(--spacing-XXS);
+
+    @include responsiveDown('XS') {
+      display: none;
+    }
+  }
+
+  .filtersM {
+    position: fixed;
+    display: flex;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .filtersWrapper {
+    opacity: 0;    
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    pointer-events: none; 
+
+    &.visible {
+      opacity: 1;      
+      pointer-events: all;
+    }
+
+    @include responsiveDown('M') {
+      display: flex;
+    }
+  }  
+
+}

@@ -1,0 +1,9 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+div.subtitles {
+  text-align: center;
+  @include responsiveUp("M") {
+    align-items: flex-start;
+    text-align: start;
+  }
+}

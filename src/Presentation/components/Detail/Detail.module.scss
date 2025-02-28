@@ -1,0 +1,26 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.galeria {
+  background-color: chocolate;
+  height: 100px;
+}
+
+div.detailDivider {
+  margin: 12px;
+}
+
+div.detailInfoDesktop {
+  display: none;
+
+  @include responsiveUp("M") {
+    display: block;
+  }
+}
+
+div.detailInfoMobile {
+  margin-bottom: 18px;
+
+  @include responsiveUp("M") {
+    display: none;
+  }
+}

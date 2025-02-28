@@ -1,0 +1,56 @@
+@import "/src/Presentation/design-system/utils/mixings";
+
+.actions {
+  margin: var(--spacing-XL) auto;
+  max-width: var(--max-width);
+  width: calc(90%);
+  display: grid;
+  gap: var(--spacing-L);
+  opacity: 1;
+  transition: all 0.8s ease;
+
+  @include responsiveUp("L") {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-L);
+  }
+
+  .actionContent {
+    display: grid;
+    gap: var(--spacing-S);
+
+    * {
+      color: white;
+    }
+  }
+
+  .blogContainer {
+    display: none;
+
+    @include responsiveUp("L") {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-S);
+      max-width: 440px;
+    }
+
+    .blogContent {
+      @extend .actionContent;
+    }
+  }
+
+  .volunteeringContainer {
+    @extend .actionContent;
+    justify-items: start;
+
+    @include responsiveUp("L") {
+      max-width: 440px;
+    }
+  }
+
+  &.active {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

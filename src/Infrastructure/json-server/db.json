@@ -1,0 +1,369 @@
+{
+  "pet": {
+    "apiId": "v1"
+  },
+  "blog": {
+    "success": true,
+    "message": "",
+    "value": {
+      "items": [
+        {
+          "id": "9ebb68d4-411b-45b9-a351-dc171b04b6c6",
+          "title": "Estética para tu mascota 7",
+          "entry": "Cortes de acuerdo a su raza",
+          "image": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+          "createdBy": "Mascotalia 2 Name",
+          "createdAt": "2024-11-29T02:49:03.65013"
+        },
+        {
+          "id": "1df0e181-0587-4a96-9df8-626d1abf3e18",
+          "title": "Estética para tu mascota 2",
+          "entry": "Cortes de acuerdo a su raza",
+          "image": "45ad7932-389b-41ab-9d1b-e6b174512c57",
+          "createdBy": "Mascotalia 2 Name",
+          "createdAt": "2024-11-29T02:49:02.116594"
+        },
+        {
+          "id": "d88e88bb-a12c-41a2-9ce1-f50c22cc0756",
+          "title": "Estética para tu mascota 8",
+          "entry": "Cortes de acuerdo a su raza",
+          "image": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+          "createdBy": "Mascotalia 2 Name",
+          "createdAt": "2024-11-29T02:49:00.532883"
+        },
+        {
+          "id": "0d3025e2-1f60-4780-910b-689a54299a18",
+          "title": "Estética para tu mascota 1",
+          "entry": "Cortes de acuerdo a su raza",
+          "image": "45ad7932-389b-41ab-9d1b-e6b174512c57",
+          "createdBy": "Mascotalia 2 Name",
+          "createdAt": "2024-11-29T02:48:59.006546"
+        },
+        {
+          "id": "51242ac8-8836-4823-9260-90f0652d062b",
+          "title": "Estética para tu mascota 3",
+          "entry": "Cortes de acuerdo a su raza",
+          "image": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+          "createdBy": "Mascotalia 2 Name",
+          "createdAt": "2024-11-29T02:48:57.479827"
+        }
+      ],
+      "totalCount": 14,
+      "pageSize": 5,
+      "pageNumber": 1,
+      "totalPages": 3
+    }
+  },
+  "blog-detail": {
+    "success": true,
+    "message": "",
+    "value": {
+      "id": "9ebb68d4-411b-45b9-a351-dc171b04b6c6",
+      "title": "Estética para tu mascota 7",
+      "entry": "Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Cortes de acuerdo a su raza Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+      "images": [
+        "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+        "45ad7932-389b-41ab-9d1b-e6b174512c57",
+        "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+        "45ad7932-389b-41ab-9d1b-e6b174512c57"
+      ],
+      "createdBy": "Mascotalia 2 Name",
+      "createdAt": "2024-11-29T02:49:03.65013"
+    }
+  },
+  "recent-entries": {
+    "success": true,
+    "message": "",
+    "value": [
+      {
+        "id": "9ebb68d4-411b-45b9-a351-dc171b04b6c6",
+        "title": "Estética para tu mascota 7",
+        "image": "32b195ec-99ca-4e9f-b7e4-bea68c0aeec0",
+        "createdAt": "2024-11-29T02:49:03.65013"
+      },
+      {
+        "id": "1df0e181-0587-4a96-9df8-626d1abf3e18",
+        "title": "Estética para tu mascota 2",
+        "image": "9e00b697-5c98-4895-b4f0-d5d129a25759",
+        "createdAt": "2024-11-29T02:49:02.116594"
+      },
+      {
+        "id": "d88e88bb-a12c-41a2-9ce1-f50c22cc0756",
+        "title": "Estética para tu mascota 8",
+        "image": "19869bf6-b918-4e1a-8416-d32c61a4d1ba",
+        "createdAt": "2024-11-29T02:49:00.532883"
+      }
+    ]
+  },
+  "tag": {
+    "success": true,
+    "message": "",
+    "value": [
+      {
+        "id": 1,
+        "value": "Health"
+      },
+      {
+        "id": 2,
+        "value": "Nutrition"
+      },
+      {
+        "id": 3,
+        "value": "Care"
+      },
+      {
+        "id": 4,
+        "value": "Behavior"
+      },
+      {
+        "id": 5,
+        "value": "Adoption"
+      },
+      {
+        "id": 6,
+        "value": "Beauty"
+      },
+      {
+        "id": 7,
+        "value": "Other"
+      }
+    ]
+  },
+  "campaign": {
+    "success": true,
+    "message": "",
+    "value": {
+      "items": [
+        {
+          "id": "45ad7932-389b-41ab-9d1b-e6b174512c57",
+          "title": "test 3",
+          "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.",
+          "startDate": "2025-01-08T14:30:00",
+          "endDate": "2025-01-08T14:30:00",
+          "location": "test 3",
+          "locationAddress": "test 3",
+          "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+          "maxVolunteers": 9
+        },
+        {
+          "id": "9db99de8-1763-4c15-a77f-1e57c2fc68e1",
+          "title": "test 2",
+          "description": "test 2",
+          "startDate": "2025-01-08T14:30:00",
+          "endDate": "2025-01-08T14:30:00",
+          "location": "test 2",
+          "locationAddress": "test 2",
+          "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+          "maxVolunteers": 11
+        },
+        {
+          "id": "2a2f6f46-7cb8-45e9-87f2-1df806d00f88",
+          "title": "test",
+          "description": "test",
+          "startDate": "2025-01-08T14:30:00",
+          "endDate": "2025-01-08T14:30:00",
+          "location": "test",
+          "locationAddress": "test",
+          "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+          "maxVolunteers": 10
+        }
+      ],
+      "totalCount": 3,
+      "pageSize": 5,
+      "pageNumber": 1,
+      "totalPages": 1
+    }
+  },
+  "recent-campaigns": {
+    "success": true,
+    "message": "",
+    "value": [
+      {
+        "id": "cfef8ab8-38c4-4f47-b508-32d91bfba5b7",
+        "title": "test 3",
+        "description": "test 3",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test 3",
+        "locationAddress": "test 3",
+        "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+        "maxVolunteers": 9
+      },
+      {
+        "id": "9db99de8-1763-4c15-a77f-1e57c2fc68e1",
+        "title": "test 2",
+        "description": "test 2",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test 2",
+        "locationAddress": "test 2",
+        "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+        "maxVolunteers": 11
+      },
+      {
+        "id": "2a2f6f46-7cb8-45e9-87f2-1df806d00f88",
+        "title": "test",
+        "description": "test",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test",
+        "locationAddress": "test",
+        "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+        "maxVolunteers": 10
+      },
+      {
+        "id": "2a2f6f46-7cb8-45e9-87f2-1df806d00f85",
+        "title": "test",
+        "description": "test",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test",
+        "locationAddress": "test",
+        "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+        "maxVolunteers": 10
+      }
+    ]
+  },
+  "random-campaigns": {
+    "success": true,
+    "message": "",
+    "value": [
+      {
+        "id": "2a2f6f46-7cb8-45e9-87f2-1df806d00f88",
+        "title": "test",
+        "description": "test",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test",
+        "locationAddress": "test",
+        "imageUrl": "97e984fa-ffb2-4077-8a06-5e90865b5068",
+        "maxVolunteers": 10
+      },
+      {
+        "id": "cfef8ab8-38c4-4f47-b508-32d91bfba5b7",
+        "title": "test 3",
+        "description": "test 3",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test 3",
+        "locationAddress": "test 3",
+        "imageUrl": "97e984fa-ffb2-4077-8a06-5e90865b5068",
+        "maxVolunteers": 9
+      },
+      {
+        "id": "9db99de8-1763-4c15-a77f-1e57c2fc68e1",
+        "title": "test 2",
+        "description": "test 2",
+        "startDate": "2025-01-08T14:30:00",
+        "endDate": "2025-01-08T14:30:00",
+        "location": "test 2",
+        "locationAddress": "test 2",
+        "imageUrl": "97e984fa-ffb2-4077-8a06-5e90865b5068",
+        "maxVolunteers": 11
+      }
+    ]
+  },
+  "campaign-detail": {
+    "success": true,
+    "message": "",
+    "value": {
+      "id": "2a2f6f46-7cb8-45e9-87f2-1df806d00f88",
+      "title": "test",
+      "description": "test",
+      "startDate": "2025-01-08T14:30:00",
+      "endDate": "2025-01-08T14:30:00",
+      "location": "test",
+      "locationAddress": "test",
+      "imageUrl": "7f70d0a3-ef0d-4f7e-a75e-5018b86cba39",
+      "maxVolunteers": 10
+    }
+  },
+  "sex": {
+    "success": true,
+    "message": "",
+    "value": [
+      {
+        "id": 1,
+        "value": "Male"
+      },
+      {
+        "id": 2,
+        "value": "Female"
+      }
+    ]
+  },
+  "specie": {
+    "success": true,
+    "message": "",
+    "value": [
+      {
+        "id": 1,
+        "type": "Canine"
+      },
+      {
+        "id": 2,
+        "type": "Feline"
+      },
+      {
+        "id": 3,
+        "type": "Bovine"
+      },
+      {
+        "id": 4,
+        "type": "Equine"
+      },
+      {
+        "id": 5,
+        "type": "Suidae"
+      },
+      {
+        "id": 6,
+        "type": "Caprinae"
+      },
+      {
+        "id": 7,
+        "type": "Caprinae"
+      },
+      {
+        "id": 8,
+        "type": "Phasianidae"
+      },
+      {
+        "id": 9,
+        "type": "Anatidae"
+      },
+      {
+        "id": 10,
+        "type": "Anatidae"
+      },
+      {
+        "id": 11,
+        "type": "Phasianidae"
+      },
+      {
+        "id": 12,
+        "type": "Equine"
+      },
+      {
+        "id": 13,
+        "type": "Columbidae"
+      },
+      {
+        "id": 14,
+        "type": "Leporidae"
+      },
+      {
+        "id": 15,
+        "type": "Numididae"
+      },
+      {
+        "id": 16,
+        "type": "Odontophoridae"
+      },
+      {
+        "id": 17,
+        "type": "Camelidae"
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+$breakpoints: (
+  "XS": 480px,
+  "S": 540px,
+  "M": 768px,
+  "L": 996px,
+  "XL": 1200px,
+  "XXL": 1440px,
+  "XXXL": 1600px,
+);
+
+@mixin responsiveUp($breakpoint) {
+  @media (min-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+@mixin responsiveDown($breakpoint) {
+  @media (max-width: map-get($breakpoints, $breakpoint)) {
+    @content;
+  }
+}
+
+// Animations
+@mixin inline-animation($duration, $count) {
+  $name: inline-#{unique-id()};
+
+  @keyframes #{$name} {
+    @content;
+  }
+
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: $count;
+}
+
+@mixin linear-animation($duration, $count) {
+  $name: inline-#{unique-id()};
+
+  @keyframes #{$name} {
+    @content;
+  }
+
+  animation-name: $name;
+  animation-duration: $duration;
+  animation-iteration-count: $count;
+  animation-timing-function: linear;
+}

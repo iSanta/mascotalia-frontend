@@ -1,0 +1,6 @@
+.breadcrumb__separator {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: large;
+}

@@ -1,0 +1,16 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  .cardList {
+    margin: var(--spacing-M) 0;
+  }
+
+  .buttonContainer {
+    display: grid;
+
+    @include responsiveUp("M") {
+      justify-content: flex-end;
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+div.paginationDesktop {
+    display: none;
+
+    @include responsiveUp("M") {
+        display: flex;
+        gap: 4px;
+    }
+}
+
+div.paginationMovile {
+    gap: 8px;
+
+    @include responsiveUp("M") {
+        display: none;
+    }
+}
+
+button.paginationBTN {
+    width: 36px;
+    height: 36px;
+}

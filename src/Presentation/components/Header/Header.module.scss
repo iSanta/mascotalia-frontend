@@ -1,0 +1,29 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+header.header {
+  display: flex;
+  justify-content: center;
+  padding: var(--spacing-M) 0;
+}
+
+.nav {
+  color: white;
+  margin: 0 0 0 auto;
+}
+
+.nav.desktopNav {
+  display: none;
+
+  @include responsiveUp("M") {
+    display: flex;
+    gap: var(--spacing-S);
+  }
+}
+
+.nav.mobileNav {
+  display: block;
+
+  @include responsiveUp("M") {
+    display: none;
+  }
+}

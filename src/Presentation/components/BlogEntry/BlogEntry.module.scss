@@ -1,0 +1,18 @@
+@import "/src/Presentation//design-system/utils/mixings";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-S);
+
+  .image {
+    border-radius: 32px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+
+    @include responsiveUp("XL") {
+      aspect-ratio: 20/9;
+    }
+  }
+}
